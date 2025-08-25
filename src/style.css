@@ -60,7 +60,6 @@ body {
 }
 
 .icon {
-  font-family: poppins, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,13 +67,15 @@ body {
 
 #location {
   color: #A05D5D;
+  font-style: italic;
 }
 
 #description {
-  color: black;
   font-family: poppins;
   padding: 0 40px;
-  text-align: center;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 25px;;
 }
 
 #follow-btn {
@@ -85,20 +86,27 @@ body {
   text-decoration: none;
   display: inline-block;
   margin: 20px;
+  font-size: 14px;
+  font-weight: bolder;
 }
 
-#data{
+#stats {
   margin-top: 20px;
   display: flex;
   border-top: #888 1px solid;
+  height: 80px;
 }
 
-.data-item {
+.stat-item {
   width: 150px;
   justify-content: center;
 }
 
-.data-item p {
+.stat-item span {
+  color: #888;
+}
+
+.stat-item p {
   color: #888;
   margin-bottom: 5px;
 }
