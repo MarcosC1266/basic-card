@@ -2,13 +2,14 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
   background: linear-gradient(45deg, #d37ec6, #ffc873, #ff3867);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: poppins, sans-serif;
 }
 
 body {
@@ -53,17 +54,20 @@ body {
 
 #name {
   color: black;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   margin: 0;
 }
 
-#location {
-  color: #A05D5D;
-  font-family: poppins;
+.icon {
+  font-family: poppins, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#location {
+  color: #A05D5D;
 }
 
 #description {
@@ -71,6 +75,37 @@ body {
   font-family: poppins;
   padding: 0 40px;
   text-align: center;
+}
+
+#follow-btn {
+  color: #2D7CBF;
+  border:#2D7CBF 2px solid;
+  border-radius: 9999px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+#data{
+  margin-top: 20px;
+  display: flex;
+  border-top: #888 1px solid;
+}
+
+.data-item {
+  width: 150px;
+  justify-content: center;
+}
+
+.data-item p {
+  color: #888;
+  margin-bottom: 5px;
+}
+
+#followers {
+  border-right:#888 1px solid;
+  border-left:#888 1px solid;
 }
 
 @media (prefers-color-scheme: light) {
