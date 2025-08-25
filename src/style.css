@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: linear-gradient(45deg, #d37ec6, #ffc873, #ff3867);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,6 +26,13 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+#card {
+  width: 450px;
+  height: 600px;
+  background-color: white;
+  border-radius: 8px;
 }
 
 @media (prefers-color-scheme: light) {
