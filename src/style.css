@@ -32,7 +32,7 @@ body {
   height: 600px;
   background-color: white;
   border-radius: 8px;
-  box-shadow: #213547 0px 0px 5px 0px;
+  box-shadow: #213547 0px 0px 5px 0px, #213547 0px 0px 5px 0px inset;
 }
 
 #banner-img {
@@ -75,12 +75,13 @@ body {
   padding: 0 40px;
   text-align: left;
   font-size: 14px;
-  margin-top: 25px;;
+  margin-top: 25px;
+  ;
 }
 
 #follow-btn {
   color: #2D7CBF;
-  border:#2D7CBF 2px solid;
+  border: #2D7CBF 2px solid;
   border-radius: 9999px;
   padding: 10px 20px;
   text-decoration: none;
@@ -88,6 +89,13 @@ body {
   margin: 20px;
   font-size: 14px;
   font-weight: bolder;
+  transition: all 0.1s ease-in;
+}
+
+#follow-btn:hover {
+  color: white;
+  border: white 2px solid;
+  background-color: #2D7CBF;
 }
 
 #stats {
@@ -112,8 +120,8 @@ body {
 }
 
 #followers {
-  border-right:#888 1px solid;
-  border-left:#888 1px solid;
+  border-right: #888 1px solid;
+  border-left: #888 1px solid;
 }
 
 @media (prefers-color-scheme: light) {
